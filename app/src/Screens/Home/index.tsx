@@ -1,9 +1,10 @@
-import {View , Text, TextInput ,TouchableOpacity} from 'react-native'
-import { theme } from '../../global/styles'
-import Logo from '../../assets/Logo.svg'
 import {AntDesign} from '@expo/vector-icons'
-import { styles } from './styles'
+import {View , Text, TextInput ,TouchableOpacity} from 'react-native'
 
+import { styles } from './styles'
+import Logo from '../../assets/Logo.svg'
+import { theme } from '../../global/styles'
+import { Task } from '../../components/Task'
 
 
 export function Home(){
@@ -42,6 +43,9 @@ export function Home(){
                         </View>
                     </View>
                 </View>
+
+                <Task/>
+                <Task/>
 
 
             </View>
