@@ -21,7 +21,7 @@ export const theme  = {
 
     },
     fonts: {
-        InterRegular: "'Inter_400Regular', 'serif'",
-        InterBold: "'Inter_700Bold', 'serif'"
+        InterRegular: "Inter_400Regular" as const,
+        InterBold: "Inter_700Bold" as const
     }
 }

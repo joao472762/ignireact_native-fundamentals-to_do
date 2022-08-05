@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { Home } from './src/Screens/Home';
-import {Inter_400Regular, Inter_700Bold,Inter_900Black} from '@expo-google-fonts/inter';
+import {Inter_400Regular, Inter_700Bold,} from '@expo-google-fonts/inter';
 
 import * as Font from 'expo-font'
 import * as SplashScreen from 'expo-splash-screen'
@@ -20,7 +20,7 @@ export default function App() {
         await Font.loadAsync({
           Inter_400Regular,
           Inter_700Bold,
-          Inter_900Black,
+         
         })
       }
       catch(error){
