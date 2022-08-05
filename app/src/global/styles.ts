@@ -1,6 +1,6 @@
 export const theme  = {
     colors:{
-        black900: '#454545',
+        background: '#191919',
 
         purple300: '#8284FA',
         purple600: '#5E60CE',

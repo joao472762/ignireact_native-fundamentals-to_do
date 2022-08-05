@@ -45,8 +45,12 @@ export default function App() {
 
 
   return (
-    <View onLayout={onLayoutRootView}>
-      <StatusBar style="auto" />
+    <View onLayout={onLayoutRootView} style={{flex: 1}}>
+      <StatusBar
+        backgroundColor = 'transparent'
+        translucent 
+        style="light" 
+      />
   
       <Home/>
     </View>
