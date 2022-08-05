@@ -24,7 +24,7 @@ export const styles = StyleSheet.create({
         height: 18,
         width: 18,
         borderColor: colors.blue300,
-        borderWidth: 2,
+        borderWidth: 1,
         borderRadius: 9,
     },
     buttonChecked: {
