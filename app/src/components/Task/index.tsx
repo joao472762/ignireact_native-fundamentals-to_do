@@ -1,8 +1,9 @@
-import { View, Text, TouchableOpacity, Alert} from "react-native";
 import {Trash} from 'phosphor-react-native'
+import { View, Text, TouchableOpacity, Alert} from "react-native";
+
 import { styles } from "./styles";
-import { theme } from "../../global/styles";
 import Check from "../../assets/check.svg"
+import { theme } from "../../global/styles";
 import { TaskProps } from "../../Screens/Home";
 
 interface props {

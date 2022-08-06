@@ -1,11 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
+import { View } from 'react-native';
 import { Home } from './src/Screens/Home';
+import { StatusBar } from 'expo-status-bar';
 import {Inter_400Regular, Inter_700Bold,} from '@expo-google-fonts/inter';
 
 import * as Font from 'expo-font'
 import * as SplashScreen from 'expo-splash-screen'
 import { useEffect, useCallback, useState } from 'react';
-import { View } from 'react-native';
 
 
 

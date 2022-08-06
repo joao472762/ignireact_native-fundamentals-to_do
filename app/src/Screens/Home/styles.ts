@@ -33,7 +33,6 @@ export const styles = StyleSheet.create({
         fontSize: 16,
         borderRadius: 8,
         height: 54,
-        
         color: colors.gray100,
         lineHeight: 140,
         fontFamily: fonts.InterRegular,
