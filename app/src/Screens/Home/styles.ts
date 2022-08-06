@@ -34,7 +34,7 @@ export const styles = StyleSheet.create({
         borderRadius: 8,
         height: 54,
         color: colors.gray100,
-        lineHeight: 140,
+        lineHeight: 22.4,
         fontFamily: fonts.InterRegular,
         backgroundColor: colors.gray500,
         paddingHorizontal: 24,
